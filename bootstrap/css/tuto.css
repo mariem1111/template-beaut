@@ -1,0 +1,80 @@
+
+  [class*="col-"], footer {
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+    
+  }
+  .title{
+    color :#ba1427;
+    text-transform: uppercase;
+  
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .line
+  {
+    margin-bottom: 4%;
+    padding-bottom: 4%;
+  }
+  .btn{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 0.5;
+    padding-bottom:0.5%; 
+    text-align: center;
+
+  }
+  .img {
+    background: url("C:/Users/mariem/Desktop/Res-01 - Home/images/slider_image_home@1x.png") no-repeat;
+    height: 1000px;
+  }
+  nav li {
+    text-align: center;
+    display : inline-block; 
+    margin-right:50px;
+
+  }
+ 
+ #title2{
+   text-transform: uppercase;
+   color:  #FFFFFF; 
+  }
+
+
+ 
+  nav ul li a {
+    color:  #FFFFFF; 
+    font-size: 17px; 
+  }
+  .image{
+    padding-top: 3%;
+  }
+#parag1{
+    color:  #FFFFFF; 
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+
+  .btn-outline-light{
+    background: transparent;
+    border-color:   #FFFFFF;
+    color: #FFFFFF;
+  }
+ 
+  
+.ic-scroll{
+  padding-top: 10%;
+}
+.row1{
+  padding-top:25%; 
+}

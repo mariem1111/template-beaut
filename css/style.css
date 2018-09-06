@@ -1,0 +1,176 @@
+.s1{
+    background: url("images/slider_image_home@1x.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    
+}
+.imSup{
+    padding-top:2%;
+}
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text1{
+    padding-top: 20%;
+}
+btn btn-outline-light btn{
+    border:white;
+}
+.imScroll
+{
+    padding-top:5%;
+}
+.btn1{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.text2{
+    color :  #B9121B;
+    font-size: 30px;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+    }
+  
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+    }
+  
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+  
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+
+  
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+  ul {
+      list-style-type: none;
+  }
+ 
+.s3{
+    background: url('images/recomended_background_image@1x.png') no-repeat center;
+    background-size: 100% 100%;
+    height: 500px;
+    position: relative;
+}
+
+
+
+
+  
+.s5{
+    padding-bottom: 5%;
+    background-color: #dbd9d9;
+}
+.s6{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('images/news_letter_background_image_home@1x.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+.foot{
+    padding-top:3%;
+    padding-bottom: 2%;
+}
+.myform{
+    margin:0 auto;
+    width: 50%;
+}
+.footer{
+    position: absolute;
+    bottom: 5%;
+    margin-left: 35%;
+}
+.images{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.btn2, .btn3, .btn4{
+    background-color: #ba1427;
+    width:auto;
+    height: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: #FFFFFF;
+    border: solid #ba1427;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+.text5 p{
+    color: #7a7979;
+    font-size: 0.9em;
+}
+.imbt{
+    margin-bottom: 5%;
+}
+
+.mobile{
+    margin: auto;
+    padding: auto;
+  }

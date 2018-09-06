@@ -1,57 +1,449 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <title> My First project </title>
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- CDN
-    <link <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    …
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-
-
-  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-  <link href="bootstrap/css/tuto.css" rel="stylesheet">
-</head>
-
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+            My First Project
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous">
+    
+    
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+    
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    </head>
 <body>
-  <!DOCTYPE html>
-  <html>
+    
+ <!-- section 1 -->
 
-  <head>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/tuto.css" rel="stylesheet">
-  </head>
+ <div class="s1">
+    <div class="container">
+        <img src="images\logo_slider_home@1x.png" class="rounded mx-auto d-block imSup">
+        <nav class="navbar navbar-expand-sm navbar-light " data-toggle="affix">
+            <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center text-white" id="navbarsExample11">
+                    <ul class="navbar-nav">
+                        <li class="nav-item text-white">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OUR SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OFFERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MY ACCOUNT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  <body>
+        <div class="masthead text-center text-white d-flex text1">
+            <div class="container my-auto">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <h1 class="text-uppercase">
+                            <strong>PAMPER YOURSELF PRETTY</strong>
+                        </h1>
+
+                    </div>
+                    <div class="col-6 mx-auto">
+                        <p class="text-faded mb-5 paragraph">Treat yourself to one of our signature services.Our beloved beauty experts will wow your brows,
+                            get you glowin and so much more.You w'll leave looking and feeling more gergeous than ever
+                            before.</p>
+                        <button type="button" class="btn btn-outline-light btn1"> I RESERVE</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row text-center imScroll">
+            <img src="images\ic_scroll@1x.png" class="rounded mx-auto d-block">
+
+        </div>
+
+
+    </div>
+</div>
+
+ <!-- section 2 -->
 
 
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">We are close to you on </div>
-        <div class="col-md-12">
-          <img src="C:/Users/mariem\Desktop/Res-01 - Home/images/title _line_category_1@1x.png"> </div>
-        <div clas="row">
-          <div class="col-md-6">
-            <img src="C:/Users/mariem\Desktop/Res-01 - Home/images/mobile_phones@1x.png"> </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-12"></div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">jjjjj</div>
-            </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="mt-5 text2">Explore our services</h1>
+            <image src="images/title _line_category_1@1x.png">
           </div>
-
-
-
         </div>
       </div>
 
-  </body>
+<!-- Carousel Card -->
+<div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner row w-100 mx-auto">
+            <div class="carousel-item col-md-4 active">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="images/categ_lashes_home@1x.png" alt="Card image cap">
+                <div class="card-body text-center">
+                <image src="images/title _line_category_1@1x.png">
 
-  </html>
+                  <h4 class="card-title text-center">Lashes & brows</h4>
+                  <ul class="card-text text-center">
+                     <li> Event Makeup </li>
+                     <li> Event Makeup </li>
+                     <li> Event Makeup </li>
+                     <li> Event Makeup </li>
+                     <li> Event Makeup </li>
+</ul>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="images/categ_nails_home@1x.png" alt="Card image cap">
+                <div class="card-body text-center">
+                 <image src="images/title _line_category_1@1x.png">
+
+                  <h4 class="card-title text-center"> NAils & more</h4>
+                  <ul class="card-text text-center">
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+</ul>                    </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="images\categ_haire_style_home@2x.png" alt="Card image cap">
+                <div class="card-body text-center">
+             <image src="images\title _line_category_1@1x.png">
+
+                  <h4 class="card-title text-center"> Haire style </h4>
+                  <ul class="card-text text-center">
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="images/categ_make_up_home@2x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card 4</h4>
+                  <ul class="card-text text-center">
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li> </ul>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="images/categ_wax_home@1x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card 5</h4>
+                  <ul class="card-text text-center">
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        </ul>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid" src="images/categ_goming_soon_home@1x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card 6</h4>
+                  <ul class="card-text text-center">
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li>
+                        <li> Event Makeup </li> </ul>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+            <button class="text-uppercase btn4">Explore it</button>
+        </div>
+    </div>
+
+ <!-- section 3 -->
+
+
+
+ <div class="s3">
+    <div class="container">
+
+        <div class="row text-center">
+            <div class="col-12">
+                <h3 class="text-uppercase text-white">tested, approved & recommended by </h3>
+                <img src="images\title _line_category_2@1x.png">
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-12">
+                <img src="images\capital_logo@1x.png">
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-12">
+                <p class="text-center text-white">"Myglam app takes up the much needed mantle of beauty concierge in
+                    Central London"</p>
+            </div>
+        </div>
+
+ <!-- section 4 -->
+
+
+ 
+ <div id="s4">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h3>how it works ?</h3>
+                <img src="images\title _line_section@1x.png">
+            </div>
+        </div>
+
+        <div class="row text-center images">
+            <div class="col-md-4 mb-4">
+                <img src="images\ic_booking@1x.png">    
+                    <h4>Booking</h4>
+                <p>Choose your service and fill
+                    <br> your available and your location</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                    <img src="images\ic_payment@1x.png">     
+
+                <h4>Payment</h4>
+                <p>Set your payment link to confirm your
+                    <br>appointment.
+                    <br> Payment is 100% online via
+                    <br> a secure platform.
+                </p>
+            </div>
+            <div class="col-md-4 mb-4">
+                    <img src="images\ic_meeting@1x.png">     
+                <h4>Meeting</h4>
+                <p>The appointment, a moment for you,
+                    <br> with a passionate expert and
+                    <br> listening to your desires.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <button class="btn3">I RESERVE</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+ <!-- section 5 -->
+
+ <div class="s5">
+     <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h3>we are close to you on</h3>
+                <img src="images\title _line_section@1x.png">
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-6 mobile">
+                <img class="img-responsive" src="images\mobile_phones@1x.png">
+            </div>
+
+            <div class="col-6 text5">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <p class="text-center">Polish hurry and technophile... Three, two, one ... Fire ! <br>
+                        Our app is availible on your smartphone! Yes can also make an appointment on our mobile site.</p>
+                    </div>
+                </div>
+
+                <div class="row imbt">
+                    <div class="col-6">
+                        <a href="#"><img class="img-responsive" src="images/ic_available_app_store_norml@1x.png"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#"><img class="img-responsive" src="images/ic_available_google_play_normal@1x.png"></a>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-12">
+                        <button class="text-uppercase btn4">Explore it</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+
+
+
+
+ <!-- section 6 -->
+
+
+
+
+
+ <div class="s6">
+    <div class="container">
+        <div class="row text-center foot">
+            <div class="col-12">
+                <h4>subsribe to our newsletter</h4>
+                <p class="text-center">Stay informed about us, news and events</p>
+            </div>
+        </div>
+
+
+        <div class="row text-center">
+            <div class="col-12 ">
+                <div class="input-group myform">
+                    <input type="email" class="form-control" placeholder="Enter your e-mail address">
+                    <button class="btn btn-secondary sendbutton" type="button">Send</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row text-center">
+            <div class="col-12">
+
+                <nav class="navbar navbar-expand-lg navbar-dark ">
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active px-lg-4">
+                                <a class="nav-link text-uppercase text-expanded" href="#">Our services </a>
+                            </li>
+                            <li class="nav-item px-lg-4">
+                                <a class="nav-link text-uppercase text-expanded" href="#">offer</a>
+                            </li>
+                            <li class="nav-item px-lg-4">
+                                <a class="nav-link text-uppercase text-expanded" href="#">my account</a>
+                            </li>
+                            <li class="nav-item px-lg-4">
+                                <a class="nav-link text-uppercase text-expanded" href="#">pro</a>
+                            </li>
+                            <li class="nav-item px-lg-4">
+                                <a class="nav-link text-uppercase text-expanded" href="#">contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="row text-center footer">
+            <div class="col-12">
+                <a href="#"><img src="images/ic_facebook@1x.png"></a>
+                <a href="#"><img src="images/ic_twitter@1x.png"></a>
+                <a href="#"><img src="images/ic_youtube@1x.png"></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
-
 </html>

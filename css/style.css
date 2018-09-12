@@ -16,21 +16,11 @@
     transform: translateX(-50%);
 }
 .text1{
-    padding-top: 7%;
-}
-btn btn-outline-light btn{
-    border:white;
+    padding-top: 15%;
 }
 .imScroll
 {
-    padding-top:3%;
-}
-.btn1{
-    padding-left: 8%;
-    padding-right: 8%;
-    margin-top: 1%;
-    border-color: white;
-    
+    padding-top: 8%;
 }
 .text2{
     color :  #B9121B;
@@ -41,9 +31,10 @@ btn btn-outline-light btn{
     margin-top:0.1%;
 }
 
-
-
-
+.btt
+{
+    border:white;
+}
 
 @media (min-width: 768px) {
     /* show 3 items */

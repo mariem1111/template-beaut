@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function () {
+  
+        $.getJSON("https://cors.io/?https://api.myglamapp.pl/api/categories?language=EN", function (result) {
+            //console.log(result);
+
+            for (i = 0; i < result.data.length; i++) {
+                /*console.log(result.data[i].label);*/
+                html = "";
+
+                html += "<div class='card'>";
+                html += "<img class='card-img-top' src='http://" + result.data[i].imagePath + "'/>";
+                html += "<div class='card-body'>";
+                html += "<h5 class='card-title text-center'>" + result.data[i].label + "</h5>";
+                html += "<p class='card-text text-center'>" + result.data[i].description + "</p>";
+                html += "<div class='row'>";
+
+
+
+                for (j = 0; j < result.data[i].Services.length; j++) {
+
+
+                    html += "<div 'class=col-4'>";
+                    html += "<div class='card' style='width: 18rem;'>";
+                    html += "<div class='card-body'>";
+
+                    html += "<h6 class='card-title' >" + result.data[i].Services[j].label_service + "</h6>";
+                    html += "<p class='card-text'>" + result.data[i].Services[j].description_service
+                        + "</p> </div> </div> </div>";
+
+                }
+  console.log(i);
+                html += "</div> </div> </div>"
+                $("#articles").append(html);
+
+            }
+
+
+        }
+        );
+    });
+</script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="articles" class="row">
+        </div>
+    </div>
+
+</body>
+
+</html>
